@@ -85,6 +85,9 @@ class Mailer {
 		//$this->mail->addAttachment('images/phpmailer_mini.png');
 
 		//send the message, check for errors
+
+		//$this->mail->msgHTML(utf8_decode($html));
+
 	}
 
 	public function send()
